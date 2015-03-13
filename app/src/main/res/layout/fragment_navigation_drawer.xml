@@ -1,0 +1,219 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:fillViewport="true"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/google_plus_profile_layout"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:background="@drawable/signb">
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:background="#ffffff"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/navigation_drawer_home"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/ic_account" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginTop="8dp"
+                    android:background="#ffffff"
+                    android:fontFamily="roboto-regular"
+                    android:text="My Account"
+                    android:textColor="#757575"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+             <LinearLayout
+                 android:id="@+id/Phoenix"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="horizontal"
+                 android:padding="10dp">
+
+                 <ImageView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_marginLeft="10dp"
+                     android:src="@drawable/ic_store" />
+
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_marginLeft="17dp"
+                     android:layout_marginTop="7dp"
+                     android:background="#ffffff"
+                     android:fontFamily="roboto-regular"
+                     android:text="Retailers"
+                     android:textColor="#757575"
+                     android:textSize="15sp" />
+             </LinearLayout>
+
+             <LinearLayout
+                 android:id="@+id/Troika"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="horizontal"
+                 android:padding="10dp">
+
+                 <ImageView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_marginLeft="10dp"
+                     android:src="@drawable/ic_events" />
+
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_marginLeft="17dp"
+                     android:layout_marginTop="7dp"
+                     android:background="#ffffff"
+                     android:fontFamily="roboto-regular"
+                     android:text="Offers"
+                     android:textColor="#757575"
+                     android:textSize="15sp" />
+             </LinearLayout>
+
+             <LinearLayout
+                 android:id="@+id/Renaissance"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="horizontal"
+                 android:padding="10dp">
+
+                 <ImageView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_marginLeft="10dp"
+                     android:src="@drawable/ic_card" />
+
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_marginLeft="17dp"
+                     android:layout_marginTop="7dp"
+                     android:background="#ffffff"
+                     android:fontFamily="roboto-regular"
+                     android:text="Loyalty card"
+                     android:textColor="#757575"
+                     android:textSize="15sp" />
+             </LinearLayout>
+
+             <LinearLayout
+                 android:id="@+id/Excelsior"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="horizontal"
+                 android:padding="10dp">
+
+                 <ImageView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_marginLeft="10dp"
+                     android:src="@drawable/ic_history" />
+
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_marginLeft="17dp"
+                     android:layout_marginTop="7dp"
+                     android:background="#ffffff"
+                     android:fontFamily="roboto-regular"
+                     android:text="History"
+                     android:textColor="#757575"
+                     android:textSize="15sp" />
+             </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f2f2f2"
+                android:orientation="horizontal" />
+
+            <LinearLayout
+                android:id="@+id/navigation_drawer_feedback"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/ic_action_feedback" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginTop="7dp"
+                    android:background="#ffffff"
+                    android:fontFamily="roboto-regular"
+                    android:text="Feedback"
+                    android:textColor="#757575"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/navigation_drawer_rate_us"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/ic_action_important" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginTop="7dp"
+                    android:background="#ffffff"
+                    android:fontFamily="roboto-regular"
+                    android:text="Rate Us"
+                    android:textColor="#757575"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
